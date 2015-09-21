@@ -12,11 +12,9 @@ It seems safe to push forward with modern versions of mock.
  setup.py                                | 2 +-
  4 files changed, 4 insertions(+), 4 deletions(-)
 
-diff --git a/letsencrypt-apache/setup.py b/letsencrypt-apache/setup.py
-index 39f4b68..701e835 100644
 --- a/letsencrypt-apache/setup.py
 +++ b/letsencrypt-apache/setup.py
-@@ -5,7 +5,7 @@ from setuptools import find_packages
+@@ -5,7 +5,7 @@
  install_requires = [
      'acme',
      'letsencrypt',
@@ -25,11 +23,9 @@ index 39f4b68..701e835 100644
      'python-augeas',
      'zope.component',
      'zope.interface',
-diff --git a/letsencrypt-compatibility-test/setup.py b/letsencrypt-compatibility-test/setup.py
-index f02041e..47b76a2 100644
 --- a/letsencrypt-compatibility-test/setup.py
 +++ b/letsencrypt-compatibility-test/setup.py
-@@ -7,7 +7,7 @@ install_requires = [
+@@ -7,7 +7,7 @@
      'letsencrypt-apache',
      'letsencrypt-nginx',
      'docker-py',
@@ -38,24 +34,20 @@ index f02041e..47b76a2 100644
      'zope.interface',
  ]
  
-diff --git a/letsencrypt-nginx/setup.py b/letsencrypt-nginx/setup.py
-index 92b9749..3038f58 100644
 --- a/letsencrypt-nginx/setup.py
 +++ b/letsencrypt-nginx/setup.py
-@@ -6,7 +6,7 @@ install_requires = [
+@@ -5,7 +5,7 @@
+ install_requires = [
      'acme',
      'letsencrypt',
-     'pyparsing>=1.5.5',  # Python3 support; perhaps unnecessary?
 -    'mock<1.1.0',  # py26
 +    'mock',
+     'PyOpenSSL',
+     'pyparsing>=1.5.5',  # Python3 support; perhaps unnecessary?
      'zope.interface',
- ]
- 
-diff --git a/setup.py b/setup.py
-index f816c6c..f1db6e4 100644
 --- a/setup.py
 +++ b/setup.py
-@@ -34,7 +34,7 @@ install_requires = [
+@@ -34,7 +34,7 @@
      'ConfigArgParse',
      'configobj',
      'cryptography>=0.7',  # load_pem_x509_certificate

@@ -11,11 +11,9 @@ hosted in the package or removed.
  README.rst | 18 ------------------
  1 file changed, 18 deletions(-)
 
-diff --git a/README.rst b/README.rst
-index 69404ec..3232bfb 100644
 --- a/README.rst
 +++ b/README.rst
-@@ -17,8 +17,6 @@ https://letsencrypt.org. Be sure to checkout the
+@@ -17,8 +17,6 @@
  About the Let's Encrypt Client
  ==============================
  
@@ -24,7 +22,7 @@ index 69404ec..3232bfb 100644
  In short: getting and installing SSL/TLS certificates made easy (`watch demo video`_).
  
  The Let's Encrypt Client is a tool to automatically receive and install
-@@ -51,22 +49,6 @@ server automatically!::
+@@ -51,22 +49,6 @@
  **Encrypt ALL the things!**
  
  

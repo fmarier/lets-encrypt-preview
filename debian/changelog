@@ -1,5 +1,5 @@
-letsencrypt (0.0.20150907-1) UNRELEASED; urgency=low
+letsencrypt (0.0.20150920-1) unstable; urgency=low
 
-  * Initial version (closes: #774387)
+  * Initial version (Closes: #774387)
 
- -- Francois Marier <francois@debian.org>  Sat, 21 Mar 2015 11:47:19 +1300
+ -- Harlan Lieberman-Berg <hlieberman@setec.io>  Mon, 14 Sep 2015 20:16:35 -0400
